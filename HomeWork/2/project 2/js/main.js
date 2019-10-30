@@ -1,6 +1,6 @@
 //заглушки (имитация базы данных)
-const image = "https://placehold.it/200x150";
-const cartImage = "https://placehold.it/100x80";
+const image = "http://placeimg.com/200/150/tech";
+const cartImage = "http://placeimg.com/100/80/tech";
 const items = [
   "Notebook",
   "Display",

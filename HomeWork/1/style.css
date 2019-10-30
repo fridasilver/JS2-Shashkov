@@ -29,8 +29,7 @@ button:focus {
   border-color: #fafafa;
   color: #fafafa;
 }
-.btn-cart,
-.logo {
+.btn-cart, .logo {
   align-self: center;
 }
 
