@@ -42,7 +42,7 @@ function fetchProducts() {
   return arr;
 }
 
-class Product {
+class Product { //товар
   constructor(product) {
     this.title = product.name;
     this.price = product.price;
@@ -63,7 +63,7 @@ class Product {
   }
 }
 
-class ProductsList {
+class ProductsList { //список товаров
   constructor() {
     this.products = [];
     this._init();
@@ -83,7 +83,7 @@ class ProductsList {
 let list = new ProductsList();
 list.render();
 
-class cartItem {
+class cartItem { //элемент корзины товаров
   constructor(item) {
     this.name = item.name;
     this.id = item.id;
@@ -101,7 +101,7 @@ class cartItem {
   }
 }
 
-class Cart {
+class Cart { //корзина
   constructor(cart) {
     this.name = cart.name;
     this.id = cart.id;
@@ -146,6 +146,10 @@ class Cart {
     document.querySelector(`.cart-block`).innerHTML = allProducts;
   }
 }
+
+
+//1. Добавьте пустые классы для корзины товаров и элемента корзины товаров. Продумайте, какие методы понадобятся для работы с этими сущностями.
+//2. Добавьте для GoodsList метод, определяющий суммарную стоимость всех товаров.
 
 // //глобальные сущности корзины и каталога (ИМИТАЦИЯ! НЕЛЬЗЯ ТАК ДЕЛАТЬ!)
 // var userCart = [];
