@@ -116,7 +116,7 @@ class Cart {
                                 <p>${this.quantity} $</p>
                             </div>
                         </div>`;
-  } //создать страицу с корзиной в html.
+  } //создать страницу с корзиной в html.
 
   renderCart() {
     let allProducts = "";
