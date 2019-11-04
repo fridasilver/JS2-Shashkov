@@ -125,28 +125,7 @@ class ProductsList { //список товаров
 
 const list = new ProductsList();
 
-
-
-// class cartItem { //элемент корзины товаров
-//   constructor(item) {
-//     this.name = item.product_name;
-//     this.id = item.id_product;
-//     this.img = cartImage;
-//     this.price = item.price;
-//    // this.quantity = item.quantity;
-//     this.template = `<div class="cart-item" data-id="${this.id}">
-//                             <img src="${this.img}" alt="Some img">
-//                             <div class="desc">
-//                                 <h3>${this.name}</h3>
-//                                 <p>${this.price} $</p>
-//                                 <p>${this.quantity} $</p>
-//                             </div>
-//                         </div>`;
-//   }
-// }
-
-const userCart = [];
-
+const userCart = []; //не работает
 
 class Cart { //корзина
   renderCart() {
