@@ -32,7 +32,7 @@ form.addEventListener("submit", function (event) {
         error.className = "error active";
         event.preventDefault();
     } else {
-        alert("OK");
+        alert("Спасибо, всё хорошо");
     }
   });
 
